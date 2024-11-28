@@ -24,10 +24,8 @@ jobs:
           deno-version: v2.x
 
       - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-
+        uses: oven-sh/setup-bun@v2
+        
       - name: Install step
         run: "bun install"
 

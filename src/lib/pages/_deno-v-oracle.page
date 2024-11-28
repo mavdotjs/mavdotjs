@@ -1,0 +1,16 @@
+---
+title: "Deno v. Oracle: Freeing 75026640"
+createdOn: "2024-11-28"
+---
+
+## kai... Oracle makes Java, not JavaScript. What are you on about?
+Since around 2010, Oracle Inc. has owned trademark "JavaScript" (serial number 75026640), Which doesn't make much sense because Oracle has nothing to do with Javascript... right? Exactly. When Brendan Eich, the creator of Javascript (remember that name) was making JS in 1995, the language was written for Netscape Navigator 2.0. Originally, the language was named "Mocha", then later "LiveScript." Netscape partnered with Sun Microsystems Inc., the creator of Java, and the name "JavaScript" was formed (to make JS more popular by piggybacking of the already popular name Java), but Sun Microsystems legally had the trademark of the name. Oracle Inc. then fully aqcuired Sun Microsystems Inc. on January 27th, 2010, as well as all of its assets, including the trademark.
+
+## Well they still use the trademark though right?
+**WRONG.** Oracle only threatens to sue people [here](https://www.reddit.com/r/sysadmin/comments/8dfrpn/minor_rant_as_if_there_was_any_more_reasons_to/) and [here](https://x.com/chatsidhartha/status/1649487592889413638) (having your name be **rust** for **javascript** devs gets you sued at all posible angles) for use of the trademark, they don't actually use it in any way. In fact, their most recent renewal specimen is just a screenshot of Node.js, something oracle has -3% involvment in: 
+<img class="height-24" alt="Screenshot of nodejs.org in the Internet Explorer browser" src="https://tsdrsec.uspto.gov/ts/cd/casedoc/sn75026640/SPE20191227132243/1/webcontent?scale=1">
+
+This is fraud. It's just straight up fraud, I don't know what else to say about that. I will give Oracle the benefit of the doubt, as I will assume that this is just the legal team doing things without having any contact with the people who know what they are talking about, which happens a lot.
+
+## I'm starting to see the problem... Actually, Javascript doesn't really have an owner
+**exaactlyy**. There isn't really *one* javascript, Google [(who has won a case against Oracle over Java)](https://www.oyez.org/cases/2020/18-956) owns the most used javascript engine, V8, which powers most of the javascript ecosystem, including Deno (the best), Node, Bun, Chrome, Edge, Electron, and even... *Couchbase?* Anyways, you could argue V8 and ECMAscript are the de facto owners of the js language.

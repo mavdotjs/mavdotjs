@@ -30,7 +30,6 @@
     "remark-github": "^12.0.0",
     "remark-heading-id": "^1.0.1",
     "svelte": "^5.0.0",
-    "svelte-adapter-deno": "^0.9.1",
     "svelte-check": "^4.0.0",
     "sveltekit-adapter-deno": "^0.16.1",
     "tailwindcss": "^4.0.0-beta.3",
